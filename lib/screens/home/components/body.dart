@@ -19,7 +19,7 @@ class Body extends StatelessWidget {
         ),
         CategoryList(),
         ComboList(),
-        DiscountWidget(),
+        DiscountWidget(), //сасать!
       ],
     );
   }
