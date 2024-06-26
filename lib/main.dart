@@ -3,7 +3,7 @@ import 'package:food_app/constants.dart';
 import 'package:food_app/screens/home/home-screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp()); //изменения тест
 }
 
 class MyApp extends StatelessWidget {
