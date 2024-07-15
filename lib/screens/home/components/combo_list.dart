@@ -33,7 +33,7 @@ class ComboList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: 250,
+        height: 210,
         child: ListView.builder(
           padding: EdgeInsets.all(8),
           itemCount: comboList.length,
