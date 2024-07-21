@@ -33,16 +33,17 @@ class ComboList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: 210,
-        child: ListView.builder(
-          padding: EdgeInsets.all(8),
-          itemCount: comboList.length,
-          scrollDirection: Axis.horizontal,
-          itemBuilder: (BuildContext context, int index) {
-            return ComboItem(
-              combo: comboList[index],
-            );
-          },
-        ));
+      height: 210,
+      child: ListView.builder(
+        padding: EdgeInsets.all(8),
+        itemCount: comboList.length,
+        scrollDirection: Axis.horizontal,
+        itemBuilder: (BuildContext context, int index) {
+          return ComboItem(
+            combo: comboList[index],
+          );
+        },
+      ),
+    );
   }
 }
